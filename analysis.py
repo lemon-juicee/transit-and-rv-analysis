@@ -4,6 +4,7 @@ import pandas
 import matplotlib.pyplot as plt
 import seaborn as sns
 import tools
+from scipy import stats
 
 def hist_comparison(data1, data2, bins, range):
     """Create a histogram comparing two distributions."""
@@ -21,4 +22,15 @@ def gen_samp_dist(data, number, size):
         samp_dist.append(mean)
         i += 1
     return samp_dist
+
+def t_test_repeated(data1, data2, size, number):
+    pvalues = []
+    i = 0
+    while i < number:
+        sample1 = random.sample(data1, k = size)
+        sample2 = random.sample(data2, k = size)
+        stat, pvalue = stats.ttest_ind(sample1, sample2, equal_var=False)
+        pvalues.append(pvalue)
+        i += 1
+    return pvalues
 
