@@ -1,0 +1,837 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Fri Sep 22 10:54:15 2023
+#
+# User preference: *
+#
+# CONSTRAINT:  where (pl_name_display not null
+# CONSTRAINT:  and discoverymethod like '%Radial Velocity%'
+# CONSTRAINT:  and rv_flag = 1
+# CONSTRAINT:  and pul_flag = 0
+# CONSTRAINT:  and ptv_flag = 0
+# CONSTRAINT:  and tran_flag = 0
+# CONSTRAINT:  and ast_flag = 0
+# CONSTRAINT:  and obm_flag = 0
+# CONSTRAINT:  and micro_flag = 0
+# CONSTRAINT:  and etv_flag = 0
+# CONSTRAINT:  and ima_flag = 0
+# CONSTRAINT:  and dkin_flag = 0
+# CONSTRAINT:  and pl_bmassestr not null
+# CONSTRAINT:  and pl_bmassprov like '%Msini%')
+#
+# COLUMN pl_name:        Planet Name
+# COLUMN discoverymethod: Discovery Method
+# COLUMN rv_flag:        Detected by Radial Velocity Variations
+# COLUMN pul_flag:       Detected by Pulsar Timing Variations
+# COLUMN ptv_flag:       Detected by Pulsation Timing Variations
+# COLUMN tran_flag:      Detected by Transits
+# COLUMN ast_flag:       Detected by Astrometric Variations
+# COLUMN obm_flag:       Detected by Orbital Brightness Modulations
+# COLUMN micro_flag:     Detected by Microlensing
+# COLUMN etv_flag:       Detected by Eclipse Timing Variations
+# COLUMN ima_flag:       Detected by Imaging
+# COLUMN dkin_flag:      Detected by Disk Kinematics
+# COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
+# COLUMN pl_bmassprov:   Planet Mass or Mass*sin(i) Provenance
+#
+pl_name,discoverymethod,rv_flag,pul_flag,ptv_flag,tran_flag,ast_flag,obm_flag,micro_flag,etv_flag,ima_flag,dkin_flag,pl_bmasse,pl_bmassprov
+11 Com b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4914.89849,Msini
+11 UMi b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4684.81420,Msini
+14 And b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1131.15130,Msini
+16 Cyg B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,565.73740,Msini
+17 Sco b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1373.01872,Msini
+18 Del b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2926.24614,Msini
+24 Boo b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,280.64248,Msini
+24 Sex b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,632.46000,Msini
+24 Sex c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,273.32000,Msini
+30 Ari B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4392.41060,Msini
+4 UMa b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2511.48007,Msini
+42 Dra b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1233.13000,Msini
+47 UMa b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,804.08000,Msini
+47 UMa c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,171.62100,Msini
+47 UMa d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,521.22000,Msini
+6 Lyn b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,597.83523,Msini
+61 Vir b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.10000,Msini
+61 Vir c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,18.20000,Msini
+61 Vir d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,22.90000,Msini
+75 Cet b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,787.89662,Msini
+75 Cet c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,289.85951,Msini
+8 UMi b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,416.35730,Msini
+81 Cet b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1051.05854,Msini
+91 Aqr b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1017.00000,Msini
+BD+03 2562 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2034.11200,Msini
+BD+14 4559 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,330.54320,Msini
+BD+15 2375 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,337.21763,Msini
+BD+15 2940 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,352.78000,Msini
+BD+20 2457 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6807.63000,Msini
+BD+20 2457 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3963.17000,Msini
+BD+20 274 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1334.88600,Msini
+BD+45 564 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,432.24663,Msini
+BD+48 738 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,289.22530,Msini
+BD+48 740 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,540.31100,Msini
+BD+49 828 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,508.50000,Msini
+BD+55 362 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,228.83645,Msini
+BD-00 4475 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7961.60160,Msini
+BD-06 1339 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.50000,Msini
+BD-06 1339 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,53.00000,Msini
+BD-08 2823 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.71320,Msini
+BD-08 2823 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,104.00000,Msini
+BD-10 3166 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,187.51970,Msini
+BD-11 4672 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,206.58950,Msini
+BD-11 4672 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.37000,Msini
+BD-13 2130 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3108.37740,Msini
+BD-17 63 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1620.90000,Msini
+BD-210397 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,214.00000,Msini
+CD Cet b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.95000,Msini
+CoRoT-20 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5403.11000,Msini
+DMPP-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,24.27000,Msini
+DMPP-1 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.60000,Msini
+DMPP-1 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.35000,Msini
+DMPP-1 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.13000,Msini
+DMPP-2 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,138.89171,Msini
+DMPP-3 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.58000,Msini
+DMPP-4 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.20000,Msini
+G 264-012 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.50000,Msini
+G 264-012 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.75000,Msini
+GJ 1002 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.08000,Msini
+GJ 1002 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.36000,Msini
+GJ 1061 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.37000,Msini
+GJ 1061 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.74000,Msini
+GJ 1061 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.64000,Msini
+GJ 1132 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.64000,Msini
+GJ 1148 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,96.70000,Msini
+GJ 1148 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,68.06000,Msini
+GJ 1151 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.62000,Msini
+GJ 1265 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.40000,Msini
+GJ 15 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.03000,Msini
+GJ 15 A c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,36.00000,Msini
+GJ 160.2 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.20000,Msini
+GJ 163 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.60000,Msini
+GJ 163 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.80000,Msini
+GJ 163 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,29.40000,Msini
+GJ 180 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.49000,Msini
+GJ 180 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.40000,Msini
+GJ 180 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.56000,Msini
+GJ 2030 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.76743,Msini
+GJ 2056 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,16.20000,Msini
+GJ 229 A c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.58137,Msini
+GJ 229 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.93794,Msini
+GJ 251 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.00000,Msini
+GJ 27.1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.00000,Msini
+GJ 273 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.89000,Msini
+GJ 273 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.18000,Msini
+GJ 3021 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1071.04000,Msini
+GJ 3082 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.20000,Msini
+GJ 3138 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.78000,Msini
+GJ 3138 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.18000,Msini
+GJ 3138 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.50000,Msini
+GJ 317 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,522.50000,Msini
+GJ 3222 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.44182,Msini
+GJ 328 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,797.74930,Msini
+GJ 328 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,21.40000,Msini
+GJ 3293 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,23.54000,Msini
+GJ 3293 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,21.09000,Msini
+GJ 3293 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.60000,Msini
+GJ 3293 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.28000,Msini
+GJ 3323 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.02000,Msini
+GJ 3323 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.31000,Msini
+GJ 3341 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.60000,Msini
+GJ 338 B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.60000,Msini
+GJ 3473 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.41000,Msini
+GJ 3512 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,146.20107,Msini
+GJ 3512 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,63.56568,Msini
+GJ 357 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.40000,Msini
+GJ 357 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.10000,Msini
+GJ 367 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.13000,Msini
+GJ 367 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.03000,Msini
+GJ 3779 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.00000,Msini
+GJ 3929 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.71000,Msini
+GJ 393 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.71000,Msini
+GJ 3942 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.14000,Msini
+GJ 3998 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.47000,Msini
+GJ 3998 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.26000,Msini
+GJ 411 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.69000,Msini
+GJ 414 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.60000,Msini
+GJ 414 A c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,53.83000,Msini
+GJ 422 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.07000,Msini
+GJ 4276 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,16.57000,Msini
+GJ 433 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.04300,Msini
+GJ 433 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,32.42200,Msini
+GJ 433 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.22300,Msini
+GJ 480 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.20000,Msini
+GJ 514 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.20000,Msini
+GJ 536 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.36000,Msini
+GJ 581 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.80000,Msini
+GJ 581 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.50000,Msini
+GJ 581 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.70000,Msini
+GJ 625 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.82000,Msini
+GJ 649 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,81.99973,Msini
+GJ 667 C b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.60000,Msini
+GJ 667 C c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.80000,Msini
+GJ 667 C e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.70000,Msini
+GJ 667 C f,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.70000,Msini
+GJ 667 C g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.60000,Msini
+GJ 674 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.09000,Msini
+GJ 676 A d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.81394,Msini
+GJ 676 A e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.67440,Msini
+GJ 682 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.40000,Msini
+GJ 682 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.70000,Msini
+GJ 685 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.00000,Msini
+GJ 687 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.20000,Msini
+GJ 687 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,16.00000,Msini
+GJ 720 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.64000,Msini
+GJ 740 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.96000,Msini
+GJ 849 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,283.82077,Msini
+GJ 849 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,0.99000,Msini
+GJ 86 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1404.80860,Msini
+GJ 887 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.20000,Msini
+GJ 887 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.60000,Msini
+GJ 9066 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,66.74397,Msini
+GJ 9404 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.90000,Msini
+GJ 96 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,19.66000,Msini
+GJ 9689 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.65000,Msini
+Gl 378 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.02000,Msini
+Gl 49 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.63000,Msini
+Gl 686 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.62400,Msini
+HAT-P-13 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4538.42100,Msini
+HAT-P-17 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1080.60000,Msini
+HAT-P-44 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1271.30000,Msini
+HATS-59 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4036.44100,Msini
+HD 100655 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,511.70630,Msini
+HD 101930 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,79.45750,Msini
+HD 102117 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,54.03110,Msini
+HD 102195 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,130.31030,Msini
+HD 102272 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1570.08020,Msini
+HD 102329 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2593.49280,Msini
+HD 102329 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,483.10160,Msini
+HD 102365 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,16.00000,Msini
+HD 102843 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,113.90000,Msini
+HD 102956 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,305.11680,Msini
+HD 103197 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,28.60470,Msini
+HD 103720 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,197.04600,Msini
+HD 103774 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,116.00000,Msini
+HD 103949 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.20000,Msini
+HD 104067 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,50.85280,Msini
+HD 10442 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,472.61321,Msini
+HD 104985 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1766.80811,Msini
+HD 105618 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,25.42627,Msini
+HD 105779 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,203.41018,Msini
+HD 10647 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,298.75000,Msini
+HD 107148 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,66.74100,Msini
+HD 107148 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,19.89606,Msini
+HD 108147 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,82.95000,Msini
+HD 108863 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,767.24162,Msini
+HD 108874 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,451.31860,Msini
+HD 108874 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,314.64000,Msini
+HD 109246 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,273.33380,Msini
+HD 109271 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.16200,Msini
+HD 109271 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,24.15400,Msini
+HD 109286 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,950.30694,Msini
+HD 109749 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,85.81410,Msini
+HD 10975 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,143.02278,Msini
+HD 110014 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3524.59000,Msini
+HD 110113 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.50000,Msini
+HD 111591 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1398.45200,Msini
+HD 112300 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5031.22368,Msini
+HD 112640 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1589.15000,Msini
+HD 11343 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,255.53404,Msini
+HD 113538 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,114.41000,Msini
+HD 113538 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,295.57000,Msini
+HD 113996 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2002.32900,Msini
+HD 114386 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,362.32620,Msini
+HD 114613 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,113.46531,Msini
+HD 114729 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,262.20975,Msini
+HD 114783 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,349.60000,Msini
+HD 11506 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,117.27868,Msini
+HD 115404 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,30.82936,Msini
+HD 116029 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,444.96200,Msini
+HD 116029 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,403.64410,Msini
+HD 11755 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1789.38290,Msini
+HD 117618 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,55.30242,Msini
+HD 11964 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,198.00000,Msini
+HD 11964 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,25.00000,Msini
+HD 11977 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2080.00000,Msini
+HD 121504 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,479.92330,Msini
+HD 12235 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.48834,Msini
+HD 122562 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,73.10053,Msini
+HD 124330 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,238.37131,Msini
+HD 12484 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,947.13340,Msini
+HD 125595 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.35660,Msini
+HD 125612 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,945.22168,Msini
+HD 125612 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.57359,Msini
+HD 12648 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,622.94680,Msini
+HD 126525 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,75.32571,Msini
+HD 12661 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,772.32690,Msini
+HD 12661 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,575.88400,Msini
+HD 127506 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,27.33324,Msini
+HD 128311 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,562.24127,Msini
+HD 128356 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,282.86870,Msini
+HD 130322 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,365.49000,Msini
+HD 131496 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,572.09400,Msini
+HD 13167 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1052.01730,Msini
+HD 13189 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3480.23850,Msini
+HD 132563 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,473.54700,Msini
+HD 133131 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,451.31860,Msini
+HD 133131 A c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,133.48860,Msini
+HD 133131 B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,794.57500,Msini
+HD 134060 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.10000,Msini
+HD 134060 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,29.29000,Msini
+HD 134987 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,511.70630,Msini
+HD 134987 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,260.00000,Msini
+HD 136418 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,680.15620,Msini
+HD 136925 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,266.97586,Msini
+HD 13724 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,50.85255,Msini
+HD 137388 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,63.56600,Msini
+HD 137496 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2434.56560,Msini
+HD 13808 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.20000,Msini
+HD 13808 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.96000,Msini
+HD 13908 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,274.91000,Msini
+HD 13908 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1630.40000,Msini
+HD 140901 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.57359,Msini
+HD 141004 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.63484,Msini
+HD 141399 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,143.34133,Msini
+HD 141399 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,422.71390,Msini
+HD 141399 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,375.03940,Msini
+HD 141399 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,209.76780,Msini
+HD 141937 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3079.77270,Msini
+HD 142 A d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,82.63539,Msini
+HD 142 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,396.96768,Msini
+HD 142245 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,975.73810,Msini
+HD 142415 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,530.77610,Msini
+HD 143105 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,384.57430,Msini
+HD 144899 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,20.34102,Msini
+HD 145377 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1913.33660,Msini
+HD 145457 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,888.01257,Msini
+HD 1461 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.44000,Msini
+HD 1461 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.59000,Msini
+HD 147018 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,674.00000,Msini
+HD 147018 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2080.00000,Msini
+HD 147379 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,21.60000,Msini
+HD 147513 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,385.00000,Msini
+HD 14787 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,356.28743,Msini
+HD 147873 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1633.64620,Msini
+HD 147873 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,731.00900,Msini
+HD 148156 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,270.14400,Msini
+HD 148164 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,390.93090,Msini
+HD 148164 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1640.00280,Msini
+HD 148427 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,413.17900,Msini
+HD 149143 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,422.71390,Msini
+HD 150010 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,762.78818,Msini
+HD 1502 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,874.03250,Msini
+HD 151450 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,38.45724,Msini
+HD 152079 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,845.74563,Msini
+HD 152581 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,594.02427,Msini
+HD 153557 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,20.34102,Msini
+HD 153557 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.48056,Msini
+HD 153950 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,937.59850,Msini
+HD 154088 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.60000,Msini
+HD 154672 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1706.74710,Msini
+HD 154857 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,778.68350,Msini
+HD 154857 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,819.97000,Msini
+HD 155193 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,238.37131,Msini
+HD 155358 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,314.65170,Msini
+HD 155358 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,261.00000,Msini
+HD 155918 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.62788,Msini
+HD 156098 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.89142,Msini
+HD 156279 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2997.75753,Msini
+HD 156411 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,235.18000,Msini
+HD 156668 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.15000,Msini
+HD 156668 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,31.49680,Msini
+HD 156846 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3391.24610,Msini
+HD 158038 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,486.27990,Msini
+HD 158259 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.60000,Msini
+HD 158259 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.41000,Msini
+HD 158259 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.08000,Msini
+HD 158259 f,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.14000,Msini
+HD 158996 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4449.62000,Msini
+HD 159243 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,359.13000,Msini
+HD 159243 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,603.90000,Msini
+HD 159868 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,704.94694,Msini
+HD 159868 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,244.09344,Msini
+HD 1605 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,296.85322,Msini
+HD 1605 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1150.54460,Msini
+HD 160691 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.17000,Msini
+HD 161178 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,181.16219,Msini
+HD 16141 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,82.63580,Msini
+HD 162020 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3127.44720,Msini
+HD 163607 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,249.05159,Msini
+HD 163607 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,699.54383,Msini
+HD 16417 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,22.10000,Msini
+HD 164509 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,140.79869,Msini
+HD 164595 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,16.14000,Msini
+HD 164604 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,635.00000,Msini
+HD 164922 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,116.00000,Msini
+HD 164922 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.00000,Msini
+HD 164922 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.00000,Msini
+HD 164922 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.52012,Msini
+HD 165155 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,918.52870,Msini
+HD 1666 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2040.00000,Msini
+HD 167042 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,444.00628,Msini
+HD 167768 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,270.15415,Msini
+HD 168009 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.53485,Msini
+HD 168443 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2424.39509,Msini
+HD 168746 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,85.81410,Msini
+HD 1690 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2793.72570,Msini
+HD 169830 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,804.42370,Msini
+HD 170469 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,209.76780,Msini
+HD 17092 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3219.61790,Msini
+HD 171028 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,832.71460,Msini
+HD 173416 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,585.12210,Msini
+HD 174205 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1334.87931,Msini
+HD 175541 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,190.06234,Msini
+HD 175607 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.98000,Msini
+HD 17674 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,276.51210,Msini
+HD 176986 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.74000,Msini
+HD 176986 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.18000,Msini
+HD 177565 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.10000,Msini
+HD 177830 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,537.13270,Msini
+HD 177830 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,47.67250,Msini
+HD 178911 B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2552.17490,Msini
+HD 179079 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,25.74423,Msini
+HD 180053 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,697.31902,Msini
+HD 180314 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7216.92964,Msini
+HD 180617 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.21400,Msini
+HD 180902 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,535.54355,Msini
+HD 181342 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,807.28820,Msini
+HD 18143 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.80617,Msini
+HD 181433 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.35660,Msini
+HD 181433 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,203.00000,Msini
+HD 181433 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,171.00000,Msini
+HD 181720 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,127.13200,Msini
+HD 183263 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1103.18240,Msini
+HD 184010 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,98.52681,Msini
+HD 184010 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,95.34852,Msini
+HD 184010 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,143.02278,Msini
+HD 18438 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6674.39655,Msini
+HD 185269 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,321.00830,Msini
+HD 187085 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,265.70588,Msini
+HD 187123 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,166.21800,Msini
+HD 187123 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,632.46000,Msini
+HD 18742 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1080.62200,Msini
+HD 188015 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,476.72000,Msini
+HD 189567 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.50000,Msini
+HD 189567 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.00000,Msini
+HD 190007 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.50000,Msini
+HD 190360 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,19.06900,Msini
+HD 190647 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,630.89255,Msini
+HD 191939 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,112.20000,Msini
+HD 191939 f,Radial Velocity,1,0,0,0,0,0,0,0,0,0,660.00000,Msini
+HD 191939 g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.50000,Msini
+HD 192263 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,177.98480,Msini
+HD 192699 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,666.17168,Msini
+HD 195019 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1264.96340,Msini
+HD 19615 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2701.54146,Msini
+HD 196885 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,819.97000,Msini
+HD 197037 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,251.00000,Msini
+HD 199509 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,43.22466,Msini
+HD 19994 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,435.41000,Msini
+HD 20003 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.66000,Msini
+HD 20003 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.44000,Msini
+HD 200964 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,508.21017,Msini
+HD 200964 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,385.84562,Msini
+HD 203387 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1106.04286,Msini
+HD 2039 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1999.15070,Msini
+HD 204313 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.16273,Msini
+HD 204941 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,73.10090,Msini
+HD 205158 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,124.58874,Msini
+HD 205739 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,435.41000,Msini
+HD 206255 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,34.20000,Msini
+HD 206610 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,647.10188,Msini
+HD 20781 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.93000,Msini
+HD 20781 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.33000,Msini
+HD 20781 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.61000,Msini
+HD 20781 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.03000,Msini
+HD 20782 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,472.83000,Msini
+HD 207832 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,177.98480,Msini
+HD 207832 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,232.01590,Msini
+HD 20794 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.77000,Msini
+HD 208487 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,165.26500,Msini
+HD 208527 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3146.40000,Msini
+HD 20868 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,397.28750,Msini
+HD 208897 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,379.48712,Msini
+HD 210193 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,153.10000,Msini
+HD 210277 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,410.00070,Msini
+HD 210702 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,481.51004,Msini
+HD 211403 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1760.76937,Msini
+HD 211810 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,212.94610,Msini
+HD 211970 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.00000,Msini
+HD 212301 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,162.09330,Msini
+HD 212771 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,759.61370,Msini
+HD 213472 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1112.39942,Msini
+HD 213519 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.21702,Msini
+HD 213885 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,19.95000,Msini
+HD 21411 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,65.90000,Msini
+HD 215152 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.81900,Msini
+HD 215152 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.72000,Msini
+HD 215152 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.80100,Msini
+HD 215152 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.87700,Msini
+HD 215497 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.35660,Msini
+HD 216435 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,400.40000,Msini
+HD 216520 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.26000,Msini
+HD 216520 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.44000,Msini
+HD 216536 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,333.72150,Msini
+HD 216770 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,181.16310,Msini
+HD 21693 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.23000,Msini
+HD 21693 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.37000,Msini
+HD 217107 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,413.17900,Msini
+HD 217107 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,826.32000,Msini
+HD 217786 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.31005,Msini
+HD 218566 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,63.56600,Msini
+HD 219134 g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.80622,Msini
+HD 219134 h,Radial Velocity,1,0,0,0,0,0,0,0,0,0,108.06220,Msini
+HD 219139 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,247.90616,Msini
+HD 219415 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,317.83000,Msini
+HD 219828 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,19.06970,Msini
+HD 220074 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5288.69120,Msini
+HD 220197 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,63.56600,Msini
+HD 220773 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,460.80000,Msini
+HD 220842 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1010.69940,Msini
+HD 221287 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,982.05000,Msini
+HD 221585 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,511.70630,Msini
+HD 222076 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,495.81480,Msini
+HD 222582 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2660.23710,Msini
+HD 224693 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,222.48100,Msini
+HD 22496 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.57000,Msini
+HD 22532 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,673.79622,Msini
+HD 22781 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4338.20000,Msini
+HD 23079 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,829.53630,Msini
+HD 23127 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,485.32641,Msini
+HD 231701 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,359.14790,Msini
+HD 233604 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2089.64400,Msini
+HD 233832 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,565.73740,Msini
+HD 238090 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.89000,Msini
+HD 238914 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1906.98000,Msini
+HD 240210 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1655.82000,Msini
+HD 240237 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5050.31870,Msini
+HD 24040 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1226.82380,Msini
+HD 24040 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,63.88351,Msini
+HD 24064 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4096.82870,Msini
+HD 24085 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.80000,Msini
+HD 25171 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,290.81445,Msini
+HD 25723 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,794.57102,Msini
+HD 25912 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,38.13941,Msini
+HD 2638 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,133.48860,Msini
+HD 26965 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.47000,Msini
+HD 27442 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,495.80000,Msini
+HD 27894 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,196.73578,Msini
+HD 27894 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,51.48846,Msini
+HD 27969 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1525.57635,Msini
+HD 28185 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1855.16441,Msini
+HD 28192 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,99.79812,Msini
+HD 285507 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,311.47340,Msini
+HD 285968 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.40000,Msini
+HD 28678 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,490.09386,Msini
+HD 290327 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,772.32690,Msini
+HD 29399 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,498.99060,Msini
+HD 2952 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,284.77425,Msini
+HD 30669 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,149.37000,Msini
+HD 30856 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,491.68301,Msini
+HD 31253 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,197.05460,Msini
+HD 31527 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.47000,Msini
+HD 31527 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.16000,Msini
+HD 31527 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.82000,Msini
+HD 3167 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.33000,Msini
+HD 3167 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.41000,Msini
+HD 32518 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,905.49313,Msini
+HD 330075 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,152.55840,Msini
+HD 331093 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,476.74261,Msini
+HD 33142 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,400.46379,Msini
+HD 33142 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,282.86728,Msini
+HD 33142 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,63.56568,Msini
+HD 33283 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,104.56607,Msini
+HD 33564 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2892.10000,Msini
+HD 33844 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,638.83830,Msini
+HD 33844 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,556.20250,Msini
+HD 34445 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,260.62060,Msini
+HD 34445 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,53.50000,Msini
+HD 34445 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,30.70000,Msini
+HD 34445 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,16.80000,Msini
+HD 34445 f,Radial Velocity,1,0,0,0,0,0,0,0,0,0,37.90000,Msini
+HD 34445 g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,120.60000,Msini
+HD 35759 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1195.04080,Msini
+HD 360 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,238.37131,Msini
+HD 36384 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2097.66749,Msini
+HD 3651 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,72.46524,Msini
+HD 37124 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,214.53525,Msini
+HD 37124 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,207.22516,Msini
+HD 37124 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,221.20968,Msini
+HD 37605 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,854.96270,Msini
+HD 37605 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1013.87770,Msini
+HD 3765 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,54.98431,Msini
+HD 38283 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,127.13200,Msini
+HD 38529 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,206.58846,Msini
+HD 38801 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3082.31534,Msini
+HD 39194 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.00000,Msini
+HD 39194 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.30000,Msini
+HD 39194 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.00000,Msini
+HD 39855 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.50000,Msini
+HD 40307 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.00000,Msini
+HD 40307 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.60000,Msini
+HD 40307 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.50000,Msini
+HD 40307 f,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.20000,Msini
+HD 40307 g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.10000,Msini
+HD 40956 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,858.14100,Msini
+HD 40979 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1484.26610,Msini
+HD 41004 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,807.25000,Msini
+HD 41004 B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5838.29000,Msini
+HD 4113 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,541.26178,Msini
+HD 42012 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,508.52800,Msini
+HD 4203 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,708.76090,Msini
+HD 4203 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,689.66000,Msini
+HD 4208 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,257.44230,Msini
+HD 42618 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.40000,Msini
+HD 4308 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.89150,Msini
+HD 4313 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,612.45841,Msini
+HD 43197 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,175.75911,Msini
+HD 43691 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,810.46650,Msini
+HD 45184 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.19000,Msini
+HD 45184 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.81000,Msini
+HD 45350 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,568.89000,Msini
+HD 45364 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,60.16492,Msini
+HD 45364 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,174.48780,Msini
+HD 45652 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,137.62039,Msini
+HD 46375 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,71.80000,Msini
+HD 47186 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,22.24810,Msini
+HD 47186 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,111.42000,Msini
+HD 4732 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,631.20722,Msini
+HD 4732 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1069.49259,Msini
+HD 47366 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,661.71874,Msini
+HD 47366 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,483.73484,Msini
+HD 47536 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2330.00000,Msini
+HD 4760 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4417.83700,Msini
+HD 48265 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,484.69075,Msini
+HD 4917 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,513.29545,Msini
+HD 49674 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,31.78300,Msini
+HD 50499 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,519.96988,Msini
+HD 50499 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,931.24190,Msini
+HD 51608 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.77000,Msini
+HD 51608 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.31000,Msini
+HD 52265 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,384.57430,Msini
+HD 5278 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,18.40000,Msini
+HD 5319 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,494.54348,Msini
+HD 5319 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,334.67499,Msini
+HD 5583 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1837.05740,Msini
+HD 564 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,104.88000,Msini
+HD 5891 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2425.04290,Msini
+HD 59686 A b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2199.38360,Msini
+HD 60292 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2065.89500,Msini
+HD 60532 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,336.89980,Msini
+HD 60532 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,797.75330,Msini
+HD 62509 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,731.00000,Msini
+HD 63454 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,79.45750,Msini
+HD 63765 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,168.44990,Msini
+HD 64114 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.80000,Msini
+HD 64121 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,813.64072,Msini
+HD 6434 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,155.73670,Msini
+HD 65216 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,411.58985,Msini
+HD 65216 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,645.19490,Msini
+HD 66141 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1906.90000,Msini
+HD 67087 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,973.00000,Msini
+HD 67087 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1540.00000,Msini
+HD 6718 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,533.95440,Msini
+HD 6860 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8981.83078,Msini
+HD 68988 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,626.12510,Msini
+HD 68988 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4767.42610,Msini
+HD 69830 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,10.20000,Msini
+HD 69830 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.80000,Msini
+HD 69830 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,18.10000,Msini
+HD 70573 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1900.00000,Msini
+HD 7199 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,85.81410,Msini
+HD 72892 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1737.88573,Msini
+HD 73526 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,978.91640,Msini
+HD 73526 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,715.09000,Msini
+HD 73534 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,353.42696,Msini
+HD 74156 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,532.36258,Msini
+HD 74698 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,23.00000,Msini
+HD 74698 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,126.00000,Msini
+HD 75289 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,155.73670,Msini
+HD 75784 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,317.83000,Msini
+HD 75784 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1792.56120,Msini
+HD 75898 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,861.31930,Msini
+HD 76700 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,66.74430,Msini
+HD 76920 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1249.07190,Msini
+HD 79181 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,203.41018,Msini
+HD 7924 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.35660,Msini
+HD 7924 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.86000,Msini
+HD 7924 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.44000,Msini
+HD 79498 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,425.89220,Msini
+HD 81688 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,525.68819,Msini
+HD 81817 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7185.78245,Msini
+HD 82886 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,740.54390,Msini
+HD 8326 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,66.60000,Msini
+HD 83443 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,127.76702,Msini
+HD 8535 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,216.12440,Msini
+HD 85390 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,31.46517,Msini
+HD 8574 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,645.19490,Msini
+HD 86081 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,470.38840,Msini
+HD 86950 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1144.18800,Msini
+HD 87646 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3941.09200,Msini
+HD 89744 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2653.88050,Msini
+HD 90156 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.98000,Msini
+HD 9174 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,352.79130,Msini
+HD 92788 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1195.04080,Msini
+HD 92788 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1166.43610,Msini
+HD 93083 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,117.59000,Msini
+HD 93351 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.49611,Msini
+HD 93385 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.20000,Msini
+HD 93385 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.10000,Msini
+HD 93385 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.70000,Msini
+HD 9446 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,222.47200,Msini
+HD 9446 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,578.42600,Msini
+HD 94771 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,169.00000,Msini
+HD 94834 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,400.46580,Msini
+HD 95089 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,400.46580,Msini
+HD 95089 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1096.51350,Msini
+HD 95127 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3378.53290,Msini
+HD 95735 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.60000,Msini
+HD 95872 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1188.68420,Msini
+HD 96063 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,403.64410,Msini
+HD 96127 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6661.71680,Msini
+HD 96167 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,227.88411,Msini
+HD 96700 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.90000,Msini
+HD 96700 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.50000,Msini
+HD 96700 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.70000,Msini
+HD 96992 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,362.32620,Msini
+HD 98219 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,624.21812,Msini
+HD 98736 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,740.54390,Msini
+HD 99109 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,139.84520,Msini
+HD 99283 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,308.29355,Msini
+HD 99492 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,25.50000,Msini
+HD 99492 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,17.90000,Msini
+HD 99706 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,390.93090,Msini
+HD 99706 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1808.45270,Msini
+HIP 105854 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2606.10000,Msini
+HIP 107772 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.90000,Msini
+HIP 107773 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,629.30340,Msini
+HIP 109384 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,495.81480,Msini
+HIP 109600 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,851.78440,Msini
+HIP 114933 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,616.58711,Msini
+HIP 12961 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,114.41880,Msini
+HIP 14810 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1239.53700,Msini
+HIP 14810 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,416.35730,Msini
+HIP 14810 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,187.51970,Msini
+HIP 19976 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,21.61233,Msini
+HIP 34222 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,263.79758,Msini
+HIP 35173 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.70000,Msini
+HIP 38594 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.10000,Msini
+HIP 38594 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,48.40000,Msini
+HIP 4845 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,14.40000,Msini
+HIP 48714 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,22.90000,Msini
+HIP 5158 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,451.00000,Msini
+HIP 5158 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4780.16320,Msini
+HIP 54373 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,8.62000,Msini
+HIP 54373 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.44000,Msini
+HIP 57274 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6.35660,Msini
+HIP 57274 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,130.00000,Msini
+HIP 57274 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,167.40000,Msini
+HIP 5763 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,162.09249,Msini
+HIP 63242 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2917.56000,Msini
+HIP 65407 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,136.03124,Msini
+HIP 65407 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,249.17872,Msini
+HIP 67851 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,498.35494,Msini
+HIP 71135 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,18.80000,Msini
+HIP 74890 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,762.79200,Msini
+HIP 75092 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,568.91285,Msini
+HIP 79431 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,667.41500,Msini
+HIP 86221 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,225.65817,Msini
+HIP 90988 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,668.07531,Msini
+HIP 91258 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,346.43470,Msini
+HIP 97166 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.90000,Msini
+HN Lib b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.46000,Msini
+HR 810 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,721.47410,Msini
+IC 4651 9122 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2002.32900,Msini
+K2-111 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.08000,Msini
+K2-18 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.51000,Msini
+K2-312 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1719.45168,Msini
+KELT-6 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1179.14930,Msini
+KIC 3526061 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5768.58559,Msini
+Kapteyn c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.00000,Msini
+Kepler-10 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,12.68000,Msini
+Kepler-129 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2637.97578,Msini
+Kepler-20 g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,19.96000,Msini
+Kepler-424 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2215.18000,Msini
+Kepler-432 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,772.32690,Msini
+Kepler-454 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1433.40612,Msini
+Kepler-454 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,734.18362,Msini
+Kepler-56 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1784.00000,Msini
+Kepler-68 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,86.44933,Msini
+L 363-38 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.67000,Msini
+L 98-59 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.06000,Msini
+LSPM J2116+0234 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.30000,Msini
+NGC 2682 Sand 364 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2126.28270,Msini
+NGC 2682 Sand 978 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,692.86940,Msini
+NGC 2682 YBP 1194 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,101.70560,Msini
+NGC 2682 YBP 1514 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,127.13200,Msini
+NGC 2682 YBP 401 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,146.20180,Msini
+Pr0201 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,171.62820,Msini
+Pr0211 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,597.52040,Msini
+Pr0211 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2475.89570,Msini
+Proxima Cen b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.07000,Msini
+Ross 128 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.40000,Msini
+Ross 508 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4.00000,Msini
+TAP 26 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,527.59780,Msini
+TOI-1052 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,34.30000,Msini
+TOI-1062 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,9.78000,Msini
+TOI-1272 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,26.70000,Msini
+TOI-1288 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,84.00000,Msini
+TOI-1338 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,65.20000,Msini
+TOI-1444 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,11.80000,Msini
+TOI-1669 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,182.11568,Msini
+TOI-1694 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,333.71983,Msini
+TOI-4010 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,692.00000,Msini
+TOI-431 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2.83000,Msini
+TOI-500 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5.03000,Msini
+TOI-500 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,33.12000,Msini
+TOI-500 e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,15.05000,Msini
+TOI-969 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3591.46100,Msini
+TYC 0434-04538-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1938.76300,Msini
+TYC 1422-614-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,794.50000,Msini
+TYC 1422-614-1 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3178.00000,Msini
+TYC 2187-512-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,104.88337,Msini
+TYC 3318-01333-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1086.97860,Msini
+TYC 3667-1280-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1716.28200,Msini
+TYC 4282-00605-1 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3426.20740,Msini
+Teegarden's Star b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.05000,Msini
+Teegarden's Star c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.11000,Msini
+WASP-107 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,115.00000,Msini
+WASP-41 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1010.69940,Msini
+WASP-53 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,5196.52050,Msini
+WASP-8 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3003.37000,Msini
+WASP-94 B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,196.41100,Msini
+Wolf 1061 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.91000,Msini
+Wolf 1061 c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.41000,Msini
+Wolf 1061 d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,7.70000,Msini
+Wolf 1069 b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.26000,Msini
+XO-2 S b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,82.63580,Msini
+XO-2 S c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,435.40900,Msini
+YZ Cet b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,0.70000,Msini
+YZ Cet c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.14000,Msini
+YZ Cet d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.09000,Msini
+alf Ari b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,572.07000,Msini
+alf Tau b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2056.36010,Msini
+bet Cnc b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2479.00000,Msini
+bet UMi b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1938.70000,Msini
+eps CrB b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2129.46100,Msini
+eps Tau b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2285.18625,Msini
+gam Lib b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,357.87479,Msini
+gam Lib c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1662.56040,Msini
+gam Psc b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,425.89007,Msini
+gam1 Leo b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,2790.43000,Msini
+iot Dra b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3756.73177,Msini
+iot Dra c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,4958.12315,Msini
+mu Leo b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,762.80000,Msini
+ome Ser b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,233.92171,Msini
+omi CrB b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,355.96782,Msini
+omi UMa b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1160.39151,Msini
+pi Men d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,13.38000,Msini
+psi1 Dra B b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,486.27990,Msini
+rho CrB b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,347.38645,Msini
+rho CrB c,Radial Velocity,1,0,0,0,0,0,0,0,0,0,28.20000,Msini
+rho CrB d,Radial Velocity,1,0,0,0,0,0,0,0,0,0,21.60000,Msini
+rho CrB e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.79000,Msini
+tau Cet e,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.93000,Msini
+tau Cet f,Radial Velocity,1,0,0,0,0,0,0,0,0,0,3.93000,Msini
+tau Cet g,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.75000,Msini
+tau Cet h,Radial Velocity,1,0,0,0,0,0,0,0,0,0,1.83000,Msini
+tau Gem b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,6547.00000,Msini
+ups Leo b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,162.09249,Msini
+xi Aql b,Radial Velocity,1,0,0,0,0,0,0,0,0,0,616.90494,Msini
