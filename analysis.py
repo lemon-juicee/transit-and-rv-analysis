@@ -34,3 +34,13 @@ def t_test_repeated(data1, data2, size, number):
         i += 1
     return pvalues
 
+def double_dist(data1, data2, number, size):
+    samp_dist = []
+    i = 0
+    while i < number:
+        sample1 = random.sample(data1, k = size)
+        sample2 = random.sample(data2, k = size)
+        mean = np.mean(sample1) - np.mean(sample2)
+        samp_dist.append(mean)
+        i += 1
+    return samp_dist
