@@ -17,5 +17,5 @@ trv = []
 for planet in tools.data_from_csv('m=transit;d=rv,transit;mass=mass.csv'):
     trv.append(planet[1])
 
-analysis.histo(rv, 100, (0, 9000), color = 'blue')
+analysis.histo(rv, 50, (0, 200), color = 'blue')
 plt.show()
