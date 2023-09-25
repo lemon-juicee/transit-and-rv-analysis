@@ -26,7 +26,7 @@ def gen_samp_dist(data, number, size):
         i += 1
     return samp_dist
 
-def t_test_repeated(data1, data2, size, number):
+def t_test_repeated(data1, data2, number, size):
     pvalues = []
     i = 0
     while i < number:
