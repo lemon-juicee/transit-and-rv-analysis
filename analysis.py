@@ -7,7 +7,7 @@ import tools
 from scipy import stats
 
 def histo(data, bins, range):
-     plt.hist(data, range = range, color = 'green', bins = bins, alpha = 0.5, weights=np.ones_like(data) / np.size(data))
+     plt.hist(data, range = range, bins = bins, alpha = 0.5, weights=np.ones_like(data) / np.size(data))
 
 def hist_comparison(data1, data2, bins, range):
     """Create a histogram comparing two distributions."""
