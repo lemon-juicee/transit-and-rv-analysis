@@ -17,6 +17,5 @@ trv = []
 for planet in tools.data_from_csv('m=transit;d=rv,transit;mass=mass.csv'):
     trv.append(planet[1])
 
-analysis.histo(trv, 100, (0, 9000), color = 'blue')
+analysis.histo(trv, 100, (0, 500), color = 'blue')
 plt.show()
-# Excludes single outlier - PH2 b
