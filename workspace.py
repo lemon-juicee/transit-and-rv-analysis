@@ -20,3 +20,22 @@ for planet in tools.data_from_csv('m=transit;d=rv,transit;mass=mass.csv'):
 transit_sd = analysis.gen_samp_dist(transit, 400, 50)
 rv_sd = analysis.gen_samp_dist(rv, 400, 50)
 trv_sd = analysis.gen_samp_dist(trv, 400, 50)
+
+fix, ax = plt.subplots()
+
+"""
+transit_hist = analysis.histo(transit, 100, (0, 100), color = 'blue')
+ax.set_title("Transit M-R Mass Estimates")
+
+rv_hist_1 = analysis.histo(rv, 100, (0, 9000), color = 'blue')
+rv_hist_2 = analysis.histo(rv, 50, (0, 200), color = 'blue')
+ax.set_title("RV m*sin(i) Minimum Masses")
+
+trv_hist_1 = analysis.histo(trv, 100, (0, 9000), color = 'blue')
+trv_hist_2 = analysis.histo(trv, 100, (0, 500), color = 'blue')
+ax-set_title("Transit -> RV Mass Calculations")
+"""
+
+ax.set_ylabel("Frequency")
+ax.set_xlabel("Mass (Earth Masses)")
+plt.show()
