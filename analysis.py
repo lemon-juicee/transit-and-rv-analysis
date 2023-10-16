@@ -7,7 +7,8 @@ import tools
 from scipy import stats
 
 def histo(data, bins, range, color='blue'):
-     plt.hist(data, range = range, color=color, bins = bins, alpha = 0.5, weights=np.ones_like(data) / np.size(data))
+    """Create a histogram."""
+    plt.hist(data, range = range, color=color, bins = bins, alpha = 0.5, weights=np.ones_like(data) / np.size(data))
 
 def hist_comparison(data1, data2, bins, range):
     """Create a histogram comparing two distributions."""
@@ -27,6 +28,7 @@ def gen_samp_dist(data, number, size):
     return samp_dist
 
 def t_test_repeated(data1, data2, number, size):
+    """Test a method to obtain p-value distribution."""
     pvalues = []
     i = 0
     while i < number:
@@ -38,6 +40,7 @@ def t_test_repeated(data1, data2, number, size):
     return pvalues
 
 def double_dist(data1, data2, number, size):
+    """Create a sampling distribution of the difference between 2 samples."""
     samp_dist = []
     i = 0
     while i < number:
