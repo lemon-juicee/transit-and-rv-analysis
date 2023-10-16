@@ -17,9 +17,9 @@ trv = []
 for planet in tools.data_from_csv('m=transit;d=rv,transit;mass=mass.csv'):
     trv.append(planet[1])
 
-transit_sd = analysis.gen_samp_dist(transit, 400, 50)
-rv_sd = analysis.gen_samp_dist(rv, 400, 50)
-trv_sd = analysis.gen_samp_dist(trv, 400, 50)
+transit_sd = analysis.gen_samp_dist(transit, 1000, 30)
+rv_sd = analysis.gen_samp_dist(rv, 1000, 30)
+trv_sd = analysis.gen_samp_dist(trv, 1000, 30)
 
 fix, ax = plt.subplots()
 
