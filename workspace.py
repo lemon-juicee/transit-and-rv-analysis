@@ -17,8 +17,6 @@ trv = []
 for planet in tools.data_from_csv('m=transit;d=rv,transit;mass=mass.csv'):
     trv.append(planet[1])
 
-p_dist = analysis.t_test_repeated(rv, trv, 50000, 80)
-print(np.median(p_dist))
-print(stats.ttest_ind(rv, trv, equal_var=False))
-analysis.histo(p_dist, 100, (0, 1), 'blue')
-plt.show()
+transit_sd = analysis.gen_samp_dist(transit, 400, 50)
+rv_sd = analysis.gen_samp_dist(rv, 400, 50)
+trv_sd = analysis.gen_samp_dist(trv, 400, 50)
