@@ -33,7 +33,7 @@ ax.set_title("RV m*sin(i) Minimum Masses")
 
 trv_hist_1 = analysis.histo(trv, 100, (0, 9000), color = 'blue')
 trv_hist_2 = analysis.histo(trv, 100, (0, 500), color = 'blue')
-ax-set_title("Transit -> RV Mass Calculations")
+ax.set_title("Transit -> RV Mass Calculations")
 """
 
 ax.set_ylabel("Frequency")
