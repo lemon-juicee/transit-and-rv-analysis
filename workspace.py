@@ -51,6 +51,6 @@ fix, ax = plt.subplots()
 ax.set_ylabel("Frequency")
 ax.set_xlabel("Mass (Earth Masses)")
 
-ax.set_title("Transit (Red) vs. Transit w/o Outliers (Blue)")
-transit_comparison = analysis.hist_comparison(transit, res_transit, 100, (0, 100))
+ax.set_title("RV (Red) vs. RV w/o Outliers (Blue)")
+transit_comparison = analysis.hist_comparison(rv, res_rv, 100, (0, 9000))
 plt.show()
