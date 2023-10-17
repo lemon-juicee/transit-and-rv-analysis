@@ -52,5 +52,5 @@ ax.set_ylabel("Frequency")
 ax.set_xlabel("Mass (Earth Masses)")
 
 ax.set_title("Transit -> RV (Red) vs. Transit -> RV w/o Outliers (Blue)")
-transit_comparison = analysis.hist_comparison(trv, res_trv, 50, (0, 9000))
+transit_comparison = analysis.hist_comparison(trv, res_trv, 50, (0, 500))
 plt.show()
