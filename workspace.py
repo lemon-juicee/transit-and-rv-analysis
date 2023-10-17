@@ -39,18 +39,3 @@ ax.set_title("Transit -> RV Mass Calculations")
 '''ax.set_ylabel("Frequency")
 ax.set_xlabel("Mass (Earth Masses)")'''
 
-transit_outliers = tools.outlier_test(transit)
-rv_outliers = tools.outlier_test(rv)
-trv_outliers = tools.outlier_test(trv)
-
-res_transit = [i for i in transit if i not in transit_outliers]
-res_rv = [i for i in rv if i not in rv_outliers]
-res_trv = [i for i in trv if i not in trv_outliers]
-
-fix, ax = plt.subplots()
-ax.set_ylabel("Frequency")
-ax.set_xlabel("Mass (Earth Masses)")
-
-ax.set_title("Transit -> RV (Red) vs. Transit -> RV w/o Outliers (Blue)")
-transit_comparison = analysis.hist_comparison(trv, res_trv, 50, (0, 500))
-plt.show()
