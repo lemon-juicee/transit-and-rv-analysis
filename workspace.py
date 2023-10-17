@@ -21,7 +21,7 @@ transit_sd = analysis.gen_samp_dist(transit, 1000, 30)
 rv_sd = analysis.gen_samp_dist(rv, 1000, 30)
 trv_sd = analysis.gen_samp_dist(trv, 1000, 30)
 
-fix, ax = plt.subplots()
+'''fix, ax = plt.subplots()'''
 
 """
 transit_hist = analysis.histo(transit, 100, (0, 100), color = 'blue')
@@ -36,6 +36,21 @@ trv_hist_2 = analysis.histo(trv, 100, (0, 500), color = 'blue')
 ax.set_title("Transit -> RV Mass Calculations")
 """
 
+'''ax.set_ylabel("Frequency")
+ax.set_xlabel("Mass (Earth Masses)")'''
+
+transit_outliers = tools.outlier_test(transit)
+rv_outliers = tools.outlier_test(rv)
+trv_outliers = tools.outlier_test(trv)
+
+res_transit = [i for i in transit if i not in transit_outliers]
+res_rv = [i for i in rv if i not in rv_outliers]
+res_trv = [i for i in trv if i not in trv_outliers]
+
+fix, ax = plt.subplots()
 ax.set_ylabel("Frequency")
 ax.set_xlabel("Mass (Earth Masses)")
+
+ax.set_title("Transit (Red) vs. Transit w/o Outliers (Blue)")
+transit_comparison = analysis.hist_comparison(transit, res_transit, 100, (0, 100))
 plt.show()
