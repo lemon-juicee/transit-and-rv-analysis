@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import tools
 from scipy import stats
+import statistics
 
 def histo(data, bins, range, color='blue'):
     """Create a histogram."""
@@ -59,5 +60,20 @@ def bootstrap_sampdist(smol, larg, number, size):
         sample2 = random.choices(larg, k = size)
         mean = np.mean(sample2) - np.mean(sample1)
         samp_dist.append(mean)
+        i += 1
+    return samp_dist
+
+def student_bootstrap_sampdist(smol, larg, number, size):
+    samp_dist = []
+    i = 0 
+    while i < number:
+        sample1 = random.choices(smol, k = size)
+        sample2 = random.choices(larg, k = size)
+        avg_diff = np.mean(sample2) - np.mean(sample1)
+        stderror1 = np.std(sample1) / (size ** 1/2)
+        stderror2 = np.std(sample2) / (size ** 1/2)
+        variances = (stderror1 ** 2 + stderror2 ** 2) ** 1/2
+        score = avg_diff / variances
+        samp_dist.append(score)
         i += 1
     return samp_dist
