@@ -50,3 +50,14 @@ def double_dist(data1, data2, number, size):
         samp_dist.append(mean)
         i += 1
     return samp_dist
+
+def bootstrap_sampdist(smol, larg, number, size):
+    samp_dist = []
+    i = 0 
+    while i < number:
+        sample1 = random.choices(smol, k = size)
+        sample2 = random.choices(larg, k = size)
+        mean = np.mean(sample2) - np.mean(sample1)
+        samp_dist.append(mean)
+        i += 1
+    return samp_dist
