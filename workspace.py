@@ -39,7 +39,6 @@ ax.set_title("Transit -> RV Mass Calculations")
 '''ax.set_ylabel("Frequency")
 ax.set_xlabel("Mass (Earth Masses)")'''
 
-i = 0
-pvalues = analysis.bootstrap_differences(transit, rv, 100000, 30, 15)
+pvalues = analysis.bootstrap_differences(transit, trv, 100000, 30, 15)
 print(pvalues)
 print(np.mean(pvalues), np.std(pvalues))
