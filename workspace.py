@@ -39,8 +39,7 @@ ax.set_title("Transit -> RV Mass Calculations")
 '''ax.set_ylabel("Frequency")
 ax.set_xlabel("Mass (Earth Masses)")'''
 
-silly = analysis.bootstrap_sampdist(transit, trv, 10000, 30)
-analysis.histo(silly, bins = 100, range = (-5000, 5000))
-plt.show()
-
-print(stats.percentileofscore(silly, 0))
+i = 0
+pvalues = analysis.bootstrap_differences(transit, rv, 100000, 30, 15)
+print(pvalues)
+print(np.mean(pvalues), np.std(pvalues))
