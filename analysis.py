@@ -62,3 +62,7 @@ def bootstrap_sampdist(smol, larg, number, size):
         samp_dist.append(mean)
         i += 1
     return samp_dist
+
+def bootstrap_differences(small, large, number, size):
+    sd = bootstrap_sampdist(small, large, number, size)
+    return stats.percentileofscore(sd, 0)
